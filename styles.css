@@ -1,0 +1,141 @@
+/* =====================
+   ESTILO GERAL
+===================== */
+body {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: #030b1a;
+    color: #e6f0ff;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    opacity: 0.9;
+}
+
+/* =====================
+   HERO (TOPO)
+===================== */
+header.hero {
+    background: linear-gradient(180deg, #021027 0%, #031a35 100%);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header .accent {
+    color: #41b6ff;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header p.lead {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* BOTÕES */
+.btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: #41b6ff;
+    color: #02101f;
+}
+
+.btn.primary:hover {
+    background: #64c5ff;
+}
+
+.btn.outline {
+    border: 2px solid #41b6ff;
+    color: #41b6ff;
+}
+
+.btn.outline:hover {
+    background: #41b6ff;
+    color: #02101f;
+}
+
+/* =====================
+   SEÇÃO DE CARDS
+===================== */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+section.features article {
+    background: #06172e;
+    border: 1px solid #0d2a52;
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+section.features article:hover {
+    transform: translateY(-5px);
+    border-color: #41b6ff;
+}
+
+/* =====================
+   PLANOS
+===================== */
+#plans {
+    margin-top: 50px;
+}
+
+.plan-card {
+    background: #06172e;
+    border: 1px solid #0a2445;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.plan-card:hover {
+    border-color: #41b6ff;
+    transform: translateY(-5px);
+}
+
+.plan-card.popular {
+    border-color: #41b6ff;
+    box-shadow: 0 0 20px rgba(65, 182, 255, 0.4);
+}
+
+.price {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #41b6ff;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+    background: #010814;
+    color: #6da9d9;
+    font-size: 14px;
+}
