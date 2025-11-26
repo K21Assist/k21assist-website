@@ -1,33 +1,233 @@
-<section id="why-k21" class="why-k21">
-  <div class="wrap">
-    <h2 class="why-title">Por que escolher a <span>K_21 Assist?</span></h2>
-
-    <p class="why-intro">
-      Chega de perder tempo, clientes ou oportunidades. A K_21 Assist é a solução 100% autónoma que trabalha por si — 24/7.
-    </p>
-
-    <div class="why-grid">
-      <div class="why-item">
-        <h3>🚀 Entrega resultados reais</h3>
-        <p>Automação completa: responde clientes, cria conteúdos e gere redes sociais sem esforço.</p>
-      </div>
-      <div class="why-item">
-        <h3>⚡ Rápida implementação</h3>
-        <p>Comece a usar em minutos. Sem complicações técnicas.</p>
-      </div>
-      <div class="why-item">
-        <h3>💼 Feito para negócios</h3>
-        <p>Ajuda empreendedores, criadores e empresas a crescer sem contratar equipa.</p>
-      </div>
-      <div class="why-item">
-        <h3>🔐 Segurança e privacidade</h3>
-        <p>Sistema seguro com padrões modernos, pensado para uso profissional.</p>
-      </div>
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K_21 Assist — Assistente IA</title>
+  <meta name="description" content="Automatize o seu negócio com IA — K_21 Assist. Assistente virtual autónomo para redes sociais, atendimento e criação de conteúdos." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="#">K_21<span>Assist</span></a>
+      <nav class="nav">
+        <a href="#features">Funcionalidades</a>
+        <a href="#planos">Planos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a class="btn-outline" href="#contact">Contactar</a>
+      </nav>
+      <button class="burger" aria-label="menu" id="burger">☰</button>
     </div>
+  </header>
 
-    <div class="why-cta">
-      <a href="#planos" class="btn-primary">Ver planos</a>
-      <a href="#contact" class="btn-outline">Peça uma demo gratuita</a>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="wrap hero-inner">
+        <h1>Automatize o seu negócio com IA — <span class="accent">K_21 Assist</span></h1>
+        <p class="lede">Assistente virtual autónomo que gere redes sociais, responde clientes e cria conteúdos 24/7 — sem intervenção humana.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#planos">Ver planos</a>
+          <a class="btn-ghost" href="#contact">Contactar-nos</a>
+        </div>
+      </div>
+      <svg class="hero-bg" aria-hidden="true" viewBox="0 0 800 200" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1">
+            <stop offset="0" stop-color="#001a33" />
+            <stop offset="1" stop-color="#001f4d" />
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#g1)"/>
+      </svg>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="wrap features">
+      <article class="card anim">
+        <h3>Assistente Virtual Autónomo</h3>
+        <p>Respostas automáticas, gestão de tickets e automação de tarefas repetitivas.</p>
+      </article>
+      <article class="card anim">
+        <h3>Gestão de Redes Sociais</h3>
+        <p>Planeamento, publicação e otimização de conteúdos sem perda de tempo.</p>
+      </article>
+      <article class="card anim">
+        <h3>Criação Automática de Conteúdos</h3>
+        <p>Posts, descrições e respostas geradas pela IA com a voz da marca.</p>
+      </article>
+    </section>
+
+    <!-- PLANS -->
+    <section id="planos" class="wrap planos">
+      <div class="pricing anim">
+        <div class="plan popular">
+          <h4>Starter</h4>
+          <p class="price">$49<span>/mês</span></p>
+          <ul>
+            <li>Gestão básica de redes</li>
+            <li>Automação simples</li>
+            <li>Suporte email</li>
+          </ul>
+          <a class="btn-primary" href="#contact">Assinar Starter</a>
+        </div>
+
+        <div class="plan featured anim-pop">
+          <h4>Pro</h4>
+          <p class="price">$99<span>/mês</span></p>
+          <ul>
+            <li>Automação avançada</li>
+            <li>Integração API</li>
+            <li>Relatórios e analytics</li>
+          </ul>
+          <a class="btn-primary" href="#contact">Assinar Pro</a>
+        </div>
+
+        <div class="plan anim">
+          <h4>Enterprise</h4>
+          <p class="price">Sob medida</p>
+          <ul>
+            <li>Soluções personalizadas</li>
+            <li>Suporte prioritário</li>
+            <li>Onboarding dedicado</li>
+          </ul>
+          <a class="btn-outline" href="#contact">Contactar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="depoimentos" class="wrap testimonials anim">
+      <h3>O que dizem os clientes</h3>
+      <div class="t-list">
+        <div class="t-card">
+          <p>“A nossa presença nas redes explodiu — com muito menos esforço. Recomendo!”</p>
+          <strong>— Joana, Marketing</strong>
+        </div>
+        <div class="t-card">
+          <p>“Respostas instantâneas e publicações automáticas. Mais tempo para o negócio.”</p>
+          <strong>— Miguel, CEO</strong>
+        </div>
+        <div class="t-card">
+          <p>“A integração com a nossa API trouxe relatórios que usamos diariamente.”</p>
+          <strong>— Sofia, Growth</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="wrap contact anim">
+      <div class="contact-grid">
+        <div>
+          <h3>Vamos começar</h3>
+          <p>Escolha um plano ou fale connosco para uma demo personalizada.</p>
+          <a class="btn-primary" href="mailto:info@k21assist.example">Enviar email</a>
+        </div>
+        <form id="contactForm" class="contact-form" onsubmit="onContact(event)">
+          <input type="text" id="name" placeholder="Nome" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="msg" placeholder="Como podemos ajudar?" rows="4" required></textarea>
+          <button class="btn-primary" type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- CHAT FLOAT -->
+  <div id="chat-root">
+    <button id="chatBtn" title="Assistente IA">💬 Assistente IA</button>
+    <div id="chatModal" aria-hidden="true">
+      <div class="chat-head">
+        <strong>K_21 Assist</strong>
+        <button id="closeChat">✕</button>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="bot">Olá! Posso ajudar com planos, demo ou integração. Escreva aqui 👇</div>
+      </div>
+      <form id="chatForm" class="chat-form" onsubmit="onChatSend(event)">
+        <input id="chatInput" placeholder="Escreva uma pergunta..." autocomplete="off" required />
+        <button type="submit">Enviar</button>
+      </form>
     </div>
   </div>
-</section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>© <strong>K_21 Assist</strong> — Todos os direitos reservados</div>
+      <div class="footer-links">
+        <a href="#planos">Planos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contact">Contactar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  /* Small JS for interactions + animations */
+  (() => {
+    // Mobile menu
+    const burger = document.getElementById('burger');
+    const nav = document.querySelector('.nav');
+    burger?.addEventListener('click', ()=> nav.classList.toggle('open'));
+
+    // Scroll reveal
+    const anims = document.querySelectorAll('.anim');
+    const reveal = (entries, obs) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          obs.unobserve(e.target);
+        }
+      });
+    };
+    const io = new IntersectionObserver(reveal, {threshold: 0.15});
+    anims.forEach(a => io.observe(a));
+
+    // Chat modal
+    const chatBtn = document.getElementById('chatBtn');
+    const chatModal = document.getElementById('chatModal');
+    const closeChat = document.getElementById('closeChat');
+    const chatBody = document.getElementById('chatBody');
+
+    chatBtn.addEventListener('click', ()=> {
+      chatModal.setAttribute('aria-hidden','false');
+      chatModal.classList.add('open');
+      document.getElementById('chatInput').focus();
+    });
+    closeChat.addEventListener('click', ()=> {
+      chatModal.setAttribute('aria-hidden','true');
+      chatModal.classList.remove('open');
+    });
+
+    // Chat send (placeholder behaviour)
+    window.onChatSend = (e) => {
+      e.preventDefault();
+      const input = document.getElementById('chatInput');
+      const value = input.value.trim();
+      if (!value) return;
+      const el = document.createElement('div'); el.className='user'; el.textContent = value;
+      chatBody.appendChild(el);
+      chatBody.scrollTop = chatBody.scrollHeight;
+      input.value='';
+
+      // fake bot response
+      setTimeout(()=>{
+        const b = document.createElement('div'); b.className='bot';
+        b.textContent = 'Estou a processar... (Exemplo: podemos agendar demo ou enviar proposta em 24h)';
+        chatBody.appendChild(b);
+        chatBody.scrollTop = chatBody.scrollHeight;
+      }, 700);
+    };
+
+    // Contact form (placeholder)
+    window.onContact = e => {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      alert(`Obrigado ${name}! Recebemos a tua mensagem. Vamos responder em breve.`);
+      e.target.reset();
+    };
+  })();
+  </script>
+</body>
+</html>
